@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* .clinic{  
+    margin-top: 4%;
+    margin-left: 0%;
+    position: unset;
+    
+} */
+.chinmay{
+    text-align: center;
+    animation: text-animation 2s ease-in-out infinite;
+}  
+  @keyframes text-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .chinma{
+    background-color: white;
+    padding: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+.chua{
+
+  text-align: center;
+}
+
+/* .pictur {
+  width: 80%;
+  height: auto;
+  margin-left: 0%;
+
+} */
+
+/* Adjust the image size for smaller screens */
+/* @media (max-width: 768px) {
+  .pictur {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    margin-top: 70%;
+  }
+} */
+/* .clinic{
+ 
+  position: center;
+  margin-left: 10%;
+
+} */
+.side{
+  margin-top: 5%;
+  text-align: center;
+}
+.about{
+
+  margin-top: 4%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.contact{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: double;
+}
+.buton{
+ 
+ background-color: rgb(103, 156, 231);
+width: 100px;
+height: 40px;
+color: #ffffff;
+
+}
+
+.art{
+  border: 1px solid #528440;
+  width: 200px;
+ background-color: rgb(124, 181, 185);
+text-align: center;
+margin-left: 10px;
+
+}
+
+/* .special-offer{
+  margin-top: 10%;
+  color: rgb(193, 52, 14);
+  font-family: sans-serif;
+  
+} */
+.serv{
+  margin-top: 10%;
+  
+}
+/* .fontt{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+.textt{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  max-width: 100%; /* Ensures container does not exceed the device width */
+  padding: 0 20px; /* Add optional padding for better layout */
+  margin: 0 auto; 
+  margin-top: 0%;/* Centers the container horizontally */
+}
+
+.responsive-image {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
+
+
+.abba{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* src/components/ScrollingComponent.css */
+
+.scrolling-component {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.scrolling-component.visible {
+  opacity: 1;
+}
+.scrolling-componentt {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.scrolling-componentt.visible {
+  opacity: 1;
+}
+.scrolling-componentty {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.scrolling-componentty.visible {
+  opacity: 1;
+}
+.adva{
+  margin-top: 5%;
+}
+
+/* .maintain{
+  margin-left: 20%;
+  margin-right: 10%;
+ 
+} */
+
+/* .box{
+
+  width: 300px;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 1%;
+  
+} */
+
+.box {
+  width: 290px;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middu{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+}
+
+.pht, .as, .asd{
+  box-shadow: 1px 7px 4px rgba(0, 0, 0, 0.2); /* Adjust the shadow properties as needed */
+}
+.down{
+
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  color: #51629f;
+ 
+  
+}
+/* @keyframes glitter {
+  0% {
+    color: #c28a8a;
+    text-shadow: none;
+  }
+  50% {
+    color: #a00a0a;
+    text-shadow: 0 0 5px #ab4440, 0 0 4px #c28a8a, 0 0 16px #c28a8a;
+  }
+  100% {
+    color: #be2424;
+    text-shadow: none;
+  }
+} */
+
+/* .down{
+  animation: glitter 2s infinite;
+} */
+
+
+/* .about{
+  width: 50%;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto; 
+} */
+.about {
+  width: 50%;
+  border: 1px solid #000;
+  background-color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: center;
+  height: auto;
+}
+.scrolling-component {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about {
+  flex-basis: 33.33%;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .scrolling-component {
+    flex-direction: column;
+  }
+
+  .about {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  background-image: './images/fgr.jpg';
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-gallery img {
+  max-width: 90%;
+  height: auto;
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .image-gallery img {
+    flex-basis: 33.33%;
+  }
+}
+/* open gallery sathi  */
+.buttooooo{
+  
+  color: #3355cf;
+  text-decoration: underline;
+  text-align: center;
+}
+/* contact us sathi */
+.buttoooo{
+  
+  color: #040405;
+
+  text-align: center;
+}
+/* .serv{
+ 
+  width: 150px;
+  border: 1px solid #000;
+  background-color: rgb(192, 216, 218);
+  text-align: center;
+
+  
+} */
+.serv {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: rgb(192, 216, 218);
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* .pht{
+  width: 350px;
+  margin-left: 10px;
+  position: center;
+}
+.as{
+
+  width: 350px;
+  margin-left: 10px;
+}
+.asd{
+  width: 350px;
+  margin-left: 10px;
+}
+.asdf{
+  width: 350px;
+  margin-left: 10px;
+} */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container img {
+  width: 350px;
+  margin: 0 10px 20px;
+}
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-container .text-container {
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.content-container h4 {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.content-container h7 {
+  margin-top: 10px;
+}
+.special-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  color: rgb(213, 93, 93);
+}
+
+.fontt {
+  text-align: center;
+ 
+}
+
+@media (max-width: 768px) {
+  .special-offer {
+    height: auto;
+  }
+}
+
+body {
+
+  opacity: 100; 
+}
+
+/* Map */
+.containerr {
+  max-width: 75%; /* Ensures container does not exceed the device width */
+  padding: 0 20px; /* Add optional padding for better layout */
+  margin: 0 auto; 
+  margin-top: 0%;/* Centers the container horizontally */
+}
+
+.responsive-imagee {
+  width: 100%; /* Make the image fill the container horizontally */
+  height: auto; /* Automatically adjust the image height to maintain aspect ratio */
+}
+body {
+  background-image: url('./images/gh.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contain {
+  display: flex;
+  justify-content:center;
+  margin:5%;
+}
+
+.ro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin:10%;
+}
+
+.ima {
+  width: 150px;
+  height: 150px;
+  margin:15x;
+  transition: transform 0.2s ease-in-out;
+  border: 5px solid white;
+}
+.ima:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .ro {
+    justify-content: wrap;
+  }
+}
+
+.caption {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.jaga{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-box {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.signup-box h2 {
+  text-align: center;
+}
+
+.signup-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signup-box button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-box button:hover {
+  background-color: #0056b3;
+}
+
+.signup-box p {
+  margin-top: 10px;
+  text-align: center;
+  color: #ff0000;
+}
+/* signin container sathi */
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signin-box {
+  width: 400px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.signin-box h2 {
+  text-align: center;
+}
+
+.signin-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signin-box input[type="text"],
+.signin-box input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.signin-box button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signin-box button:hover {
+  background-color: #0056b3;
+}
+
+.signin-box p {
+  margin-top: 10px;
+  text-align: center;
+  color: #ff0000;
+}
+/* for meditation */
+/* Define the styles for the meditation container */
+.meditation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Define the styles for the different headings */
+.title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Define the styles for the author and illustrator text */
+.author,
+.illustrator {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/* Define the styles for the description */
+.description {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Define the styles for the section title */
+.section-title {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Define the styles for the instruction text */
+.instruction {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add media queries for different screen sizes */
+@media screen and (max-width: 600px) {
+  .meditation-container {
+    border: none;
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .author,
+  .illustrator {
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .instruction {
+    font-size: 14px;
+  }
+}
+
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.author-image,
+.illustrator-image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.author-image:hover,
+.illustrator-image:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .author-image,
+  .illustrator-image {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .author-image,
+  .illustrator-image {
+    max-width: 33.33%;
+  }
+}
+/* Home */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.home-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+  opacity: 50;
+}
+
+.home-content {
+  z-index: 1;
+  color: white;
+}
+
+.home-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-message {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* First */
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+ 
+}
+
+.services-heading {
+  font-size: 2.5rem;
+  color: #101010;
+  text-align: center;
+}
+
+.shine-animation {
+  animation: shineAnimation 2s infinite;
+}
+
+@keyframes shineAnimation {
+  0% {
+    filter: brightness(100%);
+  }
+  50% {
+    filter: brightness(150%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+.ro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ima {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+.caption {
+  text-align: center;
+  color: #0c0808;
+}

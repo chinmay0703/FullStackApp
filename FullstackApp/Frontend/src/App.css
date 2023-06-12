@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+.clinic {
+  background-size: cover;
+  background-position: center;
+  /* Add other styles as needed */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.your-component {
+  background-size: cover;
+  background-position: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.chiu{
+
+    background: 'lightblue',
+    
+
+}
+.ret{
+
+ color: #f8f9fa;
+ background-color: #cbd4e1;
+
+}
+
+
+/* src/components/ScrollingComponent.css */
+.nav-link {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #a2abc9;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #eef8f1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-message {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.signup-link {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.signup-link:hover {
+  background-color: #0062cc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
